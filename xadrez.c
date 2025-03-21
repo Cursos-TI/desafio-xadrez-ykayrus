@@ -25,6 +25,18 @@ int main() {
         printf("Esquerda\n");
         rainha++;
     } while (rainha <= 8);
+
+    // Movimento do peça cavalo, 2 casas para cima e 1 direita usando while e for, looping anhinhado;
+    printf("Movimento do Cavalo:\n");
+    int movimento = 1;
+    while(movimento--){
+        for ( int cavalo = 0;  cavalo < 2; cavalo++) {
+        printf("Cima,\n");
+            
+        }
+        printf("Direita");   
+    }
+    printf("\n");
     
     return 0;
 }
